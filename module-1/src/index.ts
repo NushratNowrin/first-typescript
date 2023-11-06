@@ -16,3 +16,5 @@ let roll : number = 1718048;
 // Boolean
 let isGraduated : boolean = true;
 
+// null
+let nothing : null = null;
