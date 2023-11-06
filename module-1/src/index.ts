@@ -18,3 +18,6 @@ let isGraduated : boolean = true;
 
 // null
 let nothing : null = null;
+
+// undefined
+let bolahoyni : undefined = undefined;
