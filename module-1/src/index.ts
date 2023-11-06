@@ -13,3 +13,6 @@ let firstName2 : string = "Nushrat";
 // Number
 let roll : number = 1718048;
 
+// Boolean
+let isGraduated : boolean = true;
+
