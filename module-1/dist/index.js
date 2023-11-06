@@ -24,3 +24,10 @@ d = true;
 d = undefined;
 d = null;
 console.log(d);
+// Array
+let friends = ['Hasib', 'Hasan'];
+let rolls = [1, 3];
+// Tuple
+let ageName = [20, "Mr. X"];
+ageName[1] = 2;
+console.log(ageName);

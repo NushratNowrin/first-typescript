@@ -37,3 +37,5 @@ console.log(d);
 let friends : string[] = ['Hasib', 'Hasan'];
 let rolls : number[] = [1, 3];
 
+// Tuple
+let ageName : [number, string, boolean] = [20, "Mr. X", true];
