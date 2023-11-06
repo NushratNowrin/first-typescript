@@ -39,3 +39,22 @@ let rolls : number[] = [1, 3];
 
 // Tuple
 let ageName : [number, string, boolean] = [20, "Mr. X", true];
+
+// Object
+const user: {
+    company: "Programming Hero" //Literal Types. The value act as a type, and can't be changed
+    firstName: string;
+    middleName: string;
+    lastName?: string; //optional type: string | undefined
+    readonly Husband: string; // Access Modifier. Husband can't be changed
+} = {
+    company: "Programming Hero",
+    firstName: "Nushrat",
+    middleName: "Jahan",
+    Husband: "Hasan Ali"
+}
+
+
+
+
+
