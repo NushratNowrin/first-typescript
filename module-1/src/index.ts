@@ -21,3 +21,19 @@ let nothing : null = null;
 
 // undefined
 let bolahoyni : undefined = undefined;
+
+// any
+let d;
+
+d = 1;
+d = 'abc';
+d = true;
+d = undefined;
+d = null;
+
+console.log(d);
+
+// Array
+let friends : string[] = ['Hasib', 'Hasan'];
+let rolls : number[] = [1, 3];
+
