@@ -60,8 +60,11 @@
 	function add(num1: number, num2: number): number {
 		return num1 + num2;
 	}
-	const addNumber = add(2, 3);
+	const addNumber = add(3, 3);
     console.log(addNumber);
 
+    // Arrow Function
+    const addArrow = (num1:number, num2: number): number => num1 + num2;
+    addArrow(2, 3);
 
 }
