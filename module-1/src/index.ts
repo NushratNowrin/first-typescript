@@ -79,6 +79,10 @@ const poorUser = {
 };
 const total = poorUser.addBalance(2000)
 
-console.log(total);
+// console.log(total);
 
+// Array
+const arr: number[] = [1, 2, 3];
+const newArr: number[] = arr.map((x:number):number => x*x)
+console.log(newArr);
 // ts-node-dev --respawn --transpile-only .\module-1\src\index.ts
