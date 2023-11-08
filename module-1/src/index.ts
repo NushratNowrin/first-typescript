@@ -68,3 +68,17 @@
     addArrow(2, 3);
 
 }
+
+// Object
+const poorUser = {
+	name: "Nushrat",
+	balance: 100,
+	addBalance(num: number): string{
+		return `My current balance is ${this.balance + num}`
+	},
+};
+const total = poorUser.addBalance(2000)
+
+console.log(total);
+
+// ts-node-dev --respawn --transpile-only .\module-1\src\index.ts
