@@ -61,7 +61,7 @@
 		return num1 + num2;
 	}
 	const addNumber = add(3, 3);
-    console.log(addNumber);
+    // console.log(addNumber);
 
     // Arrow Function
     const addArrow = (num1:number, num2: number): number => num1 + num2;
@@ -81,8 +81,18 @@ const total = poorUser.addBalance(2000)
 
 // console.log(total);
 
-// Array
+// Map
 const arr: number[] = [1, 2, 3];
 const newArr: number[] = arr.map((x:number):number => x*x)
-console.log(newArr);
+// console.log(newArr);
+
+// Spread Operator
+const vowel1: string[] = ['a', 'e', 'i'];
+const vowel2: string[] = ['o', 'u'];
+
+
+const vowel = [...vowel1, ...vowel2]
+console.log(vowel);
+
+
 // ts-node-dev --respawn --transpile-only .\module-1\src\index.ts
