@@ -110,6 +110,19 @@ const student1 : Student = {
 
 // Function Alias
 type Add = (num1: number, num2: number) => number;
-const add: Add = (num1, num2) => num1+num2
+const add: Add = (num1, num2) => num1+num2;
 
+// Union
+type User = {
+	name: string;
+	age?: number;
+	gender: 'male' | 'female' | 'others';
+	blood: 'O+' | 'O-' | 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-'
+}
+
+const user1 : User ={
+	name: "Nushrat",
+	gender: "female",
+	blood: "O+"
+}
 // ts-node-dev --respawn --transpile-only .\module-1\src\index.ts
