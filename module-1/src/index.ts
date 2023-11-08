@@ -92,7 +92,22 @@ const vowel2: string[] = ['o', 'u'];
 
 
 const vowel = [...vowel1, ...vowel2]
-console.log(vowel);
+// console.log(vowel);
+
+// Type alias
+type Student = {
+	name : string;
+	age?: number;
+	dept: string;
+	gender?: string;
+}
+
+const student1 : Student = {
+	name: "Nushrat",
+	age: 25,
+	dept: "ICT",
+}
+
 
 
 // ts-node-dev --respawn --transpile-only .\module-1\src\index.ts
